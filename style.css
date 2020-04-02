@@ -1,4 +1,29 @@
+.body {
+    background-color: grey;
+}
 div {
-    border: 1px dashed red;
+    /*border: 1px dashed red;*/
+    text-align: center;
+    font-family: 'Khula', sans-serif;
+
 
 }
+.pic {
+      width: 50vw;
+}
+
+.container {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+.col-sm {
+    margin-top: 5vw;
+    margin-bottom: 5vh;
+}
+
+@media (min-height: 800px) {
+    p {
+      font-size: 100px;
+    }
+  }
