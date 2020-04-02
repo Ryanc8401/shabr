@@ -1,5 +1,5 @@
 .body {
-    background-color: grey;
+    background-color: black;
 }
 div {
     /*border: 1px dashed red;*/
@@ -20,10 +20,37 @@ div {
 .col-sm {
     margin-top: 5vw;
     margin-bottom: 5vh;
+    font-size: 18px;
 }
 
-@media (min-height: 800px) {
-    p {
-      font-size: 100px;
+
+h1 {
+    background-color: grey;
+}
+
+
+@media (min-width: 576px) {
+    div {
+        font-size: 26px;
+    
     }
-  }
+}
+
+
+@media (min-width: 768px) {
+    div {
+        font-size: 22px;
+    
+    }
+    
+}
+
+
+
+@media (min-width: 992px) {
+    div {
+        font-size: 18px;
+    
+    }
+    
+}
