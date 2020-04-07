@@ -5,6 +5,7 @@ div {
     /*border: 1px dashed red;*/
     text-align: center;
     font-family: 'Khula', sans-serif;
+    border: black;
 
 
 }
@@ -42,7 +43,6 @@ h1 {
         font-size: 22px;
     
     }
-    
 }
 
 
@@ -52,5 +52,10 @@ h1 {
         font-size: 18px;
     
     }
+}    
+
+
+#Testimonials {
+    border: 1px black;
     
 }
